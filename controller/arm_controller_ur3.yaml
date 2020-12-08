@@ -20,6 +20,7 @@ arm_controller:
   state_publish_rate:  25
   action_monitor_rate: 10
   allow_partial_joints_goal: true
+  
 joint_group_position_controller:
   type: position_controllers/JointGroupPositionController
   joints:
