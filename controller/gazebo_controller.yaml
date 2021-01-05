@@ -43,44 +43,44 @@ gazebo_ros_control:
     #   # antiwindup: false
     #   # publish_state: true
     gripper_joint:
-      p: 10.0
+      p: 0.1
       i: 0.0
       d: 0.0
-      i_clamp: 0.2
+      i_clamp: 0.0
       antiwindup: false
       publish_state: true
     l_finger_2_joint:
-      p: 10.0
+      p: 0.1
       i: 0.0
       d: 0.0
-      i_clamp: 0.2
+      i_clamp: 0.0
       antiwindup: false
       publish_state: true
     l_finger_passive_joint:
-      p: 10.0
+      p: 0.1
       i: 0.0
       d: 0.0
-      i_clamp: 0.2
+      i_clamp: 0.0
       antiwindup: false
       publish_state: true
     r_finger_1_joint:
-      p: 10.0
+      p: 0.1
       i: 0.0
       d: 0.0
-      i_clamp: 0.2
+      i_clamp: 0.0
       antiwindup: false
       publish_state: true
     r_finger_2_joint:
-      p: 10.0
+      p: 0.1
       i: 0.0
       d: 0.0
-      i_clamp: 0.2
+      i_clamp: 0.0
       antiwindup: false
       publish_state: true
     r_finger_passive_joint:
-      p: 10.0
+      p: 0.1
       i: 0.0
       d: 0.0
-      i_clamp: 0.2
+      i_clamp: 0.0
       antiwindup: false
       publish_state: true
